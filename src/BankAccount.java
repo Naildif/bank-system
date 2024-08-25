@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -36,8 +37,8 @@ public class BankAccount {
 
         while (true){
             System.out.println("Please, enter your Hello Kitty username: ");
-            String userName = sc.next();
-            if (userName.matches("[a-zA-Z]+")){
+            String userName = sc.nextLine();
+            if (userName.matches("[a-zA-Z\\s]+")){
             this.accountHolderName = userName;
                 break;
             } else {
@@ -51,18 +52,31 @@ public class BankAccount {
     }
     public void deposit(Scanner sc){
         System.out.println("Please, enter the deposit into your account");
-        double depositAmount = sc.nextDouble();
-        balance += depositAmount;
-        System.out.println("Your new balance is: " + balance);
+        try {
+            double depositAmount = sc.nextDouble();
+            balance += depositAmount;
+            System.out.println("Your new balance is: " + balance);
+        } catch (InputMismatchException e){
+            System.out.println("Please, enter a valid number.");
+            sc.next();
+            this.deposit(sc);
+        }
+
     }
     public void withdraw(Scanner sc){
         System.out.println("Please, enter the amount of money you want to withdraw from your account.");
-        double withdrawalAmount = sc.nextDouble();
-        if (balance>= withdrawalAmount) {
-            balance = balance - withdrawalAmount;
-            System.out.println("Your new balance is: " + balance);
-        }else {
-            System.out.println("Transaction unsuccessful. Insufficient funds. " + balance);
+       try {
+           double withdrawalAmount = sc.nextDouble();
+           if (balance>= withdrawalAmount) {
+               balance = balance - withdrawalAmount;
+               System.out.println("Your new balance is: " + balance);
+           }else {
+               System.out.println("Transaction unsuccessful. Insufficient funds. " + balance);
+           }
+        } catch (InputMismatchException e){
+            System.out.println("Please, enter a valid number.");
+            sc.next();
+            this.withdraw(sc);
         }
     }
     public double checkBalance() {
