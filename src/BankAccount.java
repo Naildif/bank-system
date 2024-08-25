@@ -9,6 +9,31 @@ public class BankAccount {
     public BankAccount(Scanner sc, Random random){
         System.out.println("Welcome to Hello Kitty Bank!");
 
+                System.out.println("⠀⠀⠀⠀⢀⣀⣀⡀⠀⠀⠀⢀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠀⠀⢰⣿⣿⣿⣿⣷⣦⣾⠟⠋⠙⢿⣦⣀⣀⡀⠀⠀⠀⠀⢀⣀⣤⣶⣶⣶⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⢠⣾⠿⠛⠿⢿⣿⠟⠛⠳⣖⠓⡆⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⢸⣏⠀⠀⢠⠼⡇⠀⠀⠀⢸⠶⠃⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠘⣿⡄⠀⠘⠦⠷⣤⣀⣤⣿⣶⣤⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠀⣽⣿⣦⣀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠛⠻⣿⣿⣿⣿⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⢿⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⢀⣠⣿⣿⣿⣿⣇⠀⣾⣿⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣶⡀⢹⣿⣿⣿⣿⣿⠿⠿⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠈⠉⢿⣿⣿⣿⣿⣿⣮⣿⣁⡀⠀⠀⠀⣠⣤⣀⠀⠀⠀⠀⠈⢿⣿⣥⣾⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⣿⣇⣀⠀");
+                System.out.println("⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣛⣿⣤⣶⣦⣄⣤⣤⣾⣿⠿⢛⠁");
+                System.out.println("⠀⠉⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠋⠉⢀⠈⠀⠀⢠");
+                System.out.println("⠀⠀⠀⠀⠀⠀⠙⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⢿⣿⠿⣿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄");
+                System.out.println("⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠛⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⠿⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣇⠘⣷⡀⠀⠀⠀⢀⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂");
+                System.out.println("⠀⠀⠀⠀⠀⢀⣤⣾⣏⠀⠀⠀⠀⢲⣾⣿⣿⣿⠟⢻⣿⣿⣿⣧⣘⢷⣦⣤⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⢀⣤⣴⣿⣿⣿⣿⣿⣦⡀⠀⠀⢸⣿⠏⠁⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⢿⣿⣿⣿⣿⣿⣿⠋⠈⠙⠛⠺⣿⣿⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠘⣿⣿⠿⠋⠁⣽⠳⠶⢤⣤⣤⣉⣉⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣤⣽⡾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠀⠈⠁⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠈⢩⡿⢻⣏⠉⠉⠉⠉⠉⠉⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂");
+                System.out.println("⠀⠀⠀⠀⠀⠀⠀⢻⣄⠀⠀⠀⠀⠀⣠⡾⠁⠀⢻⡄⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⠶⠶⠶⠾⠋⠁⠀⠀⠀⠻⢦⣀⣀⠀⣀⣠⡾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+
         while (true){
             System.out.println("Please, enter your Hello Kitty username: ");
             String userName = sc.next();
@@ -31,13 +56,13 @@ public class BankAccount {
         System.out.println("Your new balance is: " + balance);
     }
     public void withdraw(Scanner sc){
-        System.out.println("Please, enter the amount of money you want to withdraw from your account");
+        System.out.println("Please, enter the amount of money you want to withdraw from your account.");
         double withdrawalAmount = sc.nextDouble();
         if (balance>= withdrawalAmount) {
             balance = balance - withdrawalAmount;
             System.out.println("Your new balance is: " + balance);
         }else {
-            System.out.println("Transaction unsuccessful. Insufficient funds" + balance);
+            System.out.println("Transaction unsuccessful. Insufficient funds. " + balance);
         }
     }
     public double checkBalance() {
